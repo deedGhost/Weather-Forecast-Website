@@ -1,0 +1,22 @@
+.InfoBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds space between sections */
+    padding: 20px; /* Adds padding around the whole InfoBox */
+    height: auto;
+    width: auto;
+}
+
+/* Styles for individual cards within sections */
+.card {
+    padding: 20px; /* Adds padding inside each card */
+    border: none;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    /* Responsive styles */
+    .InfoBox {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}

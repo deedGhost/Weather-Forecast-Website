@@ -1,0 +1,38 @@
+.parentContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('../assets/weather.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.child {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.appBar {
+    background-color: #050117a7 !important; /* Override AppBar background color */
+}
+
+.themeToggle {
+    color: #ffffff;
+    background-color: #f8f2f3;
+    border: none;
+    padding: 8px;
+    margin-left: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .themeToggle {
+        margin-left: 8px;
+    }
+}
